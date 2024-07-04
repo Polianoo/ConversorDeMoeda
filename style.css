@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body{
+    background-color: #8a51fc;
+}
+
+
+
+.logo{
+    width: 270px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+main{
+
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 20px 40px 20px 40px;
+    border: 6px solid  #0af044;
+
+}
+
+
+label{
+    color:#777777;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+select, input{
+    background: #FFFF;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color:#555555;
+    background-color: #0af044;
+}
+
+button{
+    background:#772fd3;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #FFFF;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+
+button:hover{
+    opacity: 0.8;
+    background-color: #090dff;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
+section{
+    border: 1px solid #772fd3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 20px;
+    display: flex;    /*  O display flex ele coloca os elemento um do lado, dentro de uma caixa*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  
+}
+
+.arrow-img{
+    padding-left: 25px;
+    margin-left: 10px;
+    margin-bottom: 45px;
+    transform: rotate(270deg);  /*  rotacionar a imagem */
+
+}
+
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin-left: 10px;
+
+}
+
+.currency{
+    color: #777777;
+    font-size: 14px;
+
+}
+
+.currency-value{
+    color: #555555;
+    font-family: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.euro{
+  padding-left: 25px;
+ padding-bottom: 29px;
+}
+
